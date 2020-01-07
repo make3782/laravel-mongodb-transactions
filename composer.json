@@ -5,9 +5,17 @@
     "require": {
         "jenssegers/mongodb": "^3.4"
     },
-
     "autoload": {
-        "psr-4": {"Zs\\": "src"}
+        "psr-0": {
+            "Zs\\Mongodb": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zs\\Mongodb\\MongodbServiceProvider",
+            ]
+        }
     }
 
 }
