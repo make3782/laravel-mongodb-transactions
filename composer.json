@@ -4,5 +4,10 @@
     "type": "library",
     "require": {
         "jenssegers/mongodb": "^3.4"
+    },
+
+    "autoload": {
+        "psr-4": {"Zs\\": "src"}
     }
+
 }
