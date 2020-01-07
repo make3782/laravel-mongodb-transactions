@@ -3,6 +3,6 @@
     "description": "扩展了Jenssegers/laravel-mongodb，支持事务功能",
     "type": "library",
     "require": {
-        "jenssegers/mongodb": "^3.6"
+        "jenssegers/mongodb": "^3.4"
     }
 }
