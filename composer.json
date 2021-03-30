@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zs\\Mongodb\\MongodbServiceProvider",
+                "Zs\\Mongodb\\MongodbServiceProvider"
             ]
         }
     }
